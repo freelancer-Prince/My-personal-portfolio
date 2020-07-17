@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
    <!-- title head logo -->
     <link rel="shortcut icon" href="images/logo/remove.png" type="image/x-icon">
-    <!-- js file -->
-    <script src="js/flip-card.js"></script>
     <!-- font awesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -18,32 +16,32 @@
 </head>
 <body>
     <!-- navbar head commit -->
-    <header class="nav-section">
+    <header class="nav-section fixed-top">
         <div class="container">
         <nav class="navbar navbar-expand-md navbar-light ">
-            <a class="navbar-brand" href="#"><img src="images/logo/146471_3216871_426502_image.png" alt=""></a>
+            <a class="navbar-brand " href="#"><img src="images/logo/146471_3216871_426502_image.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                <li class=" active">
+                  <a class="nav-link text-color " href="#">HOME</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-color" href="#">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SEVICES</a>
+                <li class="nav-item ">
+                  <a class="nav-link text-color" href="#services">SERVICES</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORKS</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-color" href="#">WORKS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">GALLERY</a>
+                  <li class="nav-item ">
+                    <a class="nav-link text-color" href="#my-skill">MY-SKILLS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                  <li class="nav-item ">
+                    <a class="nav-link text-color" href="#">CONTACT</a>
                   </li>
                </u>
             </div>
@@ -52,14 +50,14 @@
 </header>
 
 <section class="header-section">
-    <div class="container">
+    <div class="container ">
         <div class="row">
         <div class="col-md-6">
             <div class="contain">
-            <h5 class="text-white ml-2">Hello,my name is</h5>
-            <h1 class="text-white ml-2">Md Shajid</h1>
-            <h5 class="text-white ml-2">Web-Design & Devoloper</h5>
-            <button type="button" class="btn btn-warning mt-1 ml-2">Read My CV</button>
+            <h5 class="text-white-h5-1s ml-2">Hello,my name is</h5>
+            <h1 class="text-white-h1 ml-2">Md Shajid</h1>
+            <h5 class="text-white-h5-2n ml-2">Web-Design & Devoloper</h5>
+            <button type="button" class="btn btn-primary mt-1 ml-2">Read My CV</button>
         </div>
     </div>
         <div class=" col-md-6">
@@ -70,15 +68,37 @@
     </div>
 </div>
 </section>
-
+<!-- adout me section -->
+<section class="adout-dg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 padding">
+                <div class="border-content">
+                    <h2>Hi, I'M Md Shajid</h2>
+                    <p>I am a font-end <span class="tx-color">Web-Design</span> & <span class="tx-color">Developer</span> . I can do <span class="tx-color"> HTML5, CSS3, Bootstrap, JavaScript</span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor porro ullam. Odit, enim! <br> Id recusandae totam quidem ratione natus?</p>
+                    <h4>Name:- Md Shajid </h4>
+                    <h4>Age:- 20 Yr</h4>
+                    <h4>E-mail:- msshajdi200@gmail.com</h4>
+                    <h4>Address:- Chuadanga , Khulna ,Dhaka</h4>
+                    <h4>Phone:- +8801715280200</h4>
+                </div>
+            </div>
+            <div class="col-md-4 padding">
+                <img class="width-margin-about" src="images/About-me.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 <!-- flip card with html, css, js -->
-<section class="b-color">
+<section id="services" class="b-color">
+    <h1 class="bo-co">Services</h1>
     <div class="container top-contain">
-    <div class="centerflipcards">
-        <div class="square-flip">
-            <div class='square' >
+    <div class="centerflipcards "> 
+        <div class="square-flip mex-flip">
+            <div class="square">
                 <div class="square-container">
-                    <div class="align-center i-con-witdh">
+                    <div class="align-center i-con-width">
                         <i class="fas fa-tv"></i>
                     </div>
                     <h2 class="textshadow">Web Design</h2>
@@ -97,10 +117,10 @@
             </div>
         </div>
     
-        <div class="square-flip">
+        <div class="square-flip square-margin-flip">
             <div class='square' data-image="">
                 <div class="square-container">
-                    <div class="align-center i-con-witdh"> 
+                    <div class="align-center i-con-width"> 
                         <i class="fas fa-code"></i>
                     </div>
                     <h2 class="textshadow">Web Development</h2>
@@ -120,7 +140,7 @@
             </div>
         </div>
     
-        <div class="square-flip">
+        <div class="square-flip square-margin-flip">
             <div class='square' data-image="">
                 <div class="square-container">
                     <div class="align-center i-con-width">
@@ -150,10 +170,10 @@
 
 <div class="container top-contain">
     <div class="centerflipcards">
-        <div class="square-flip">
+        <div class="square-flip mex-flip">
             <div class='square' data-image="">
                 <div class="square-container">
-                    <div class="align-center i-con-witdh">
+                    <div class="align-center i-con-width">
                         <i class="fab fa-react"></i>
                     </div>
                     <h2 class="textshadow">React Js</h2>
@@ -172,10 +192,10 @@
             </div>
         </div>
     
-        <div class="square-flip">
+        <div class="square-flip square-margin-flip">
             <div class='square' data-image="">
                 <div class="square-container">
-                    <div class="align-center i-con-witdh"> 
+                    <div class="align-center i-con-width"> 
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h2 class="textshadow">Apps Development</h2>
@@ -195,7 +215,7 @@
             </div>
         </div>
     
-        <div class="square-flip">
+        <div class="square-flip square-margin-flip ">
             <div class='square' data-image="">
                 <div class="square-container">
                     <div class="align-center i-con-width">
@@ -221,10 +241,54 @@
     </div>
 </div>
 </section>
-    
-    
-    
+<!-- skill section -->
+<section  id="my-skill"  class="bg-color" >
+    <div class="container ">
+    <div class="row">
+    <div class="col-md-8">
+    <div class="skill">
+        <h1 class="bo-co-sk">PROFESSIONAL SKILLS</h1>
+         <p> I design and develop services for customers of all sizes, specializing in <br>creating stylish, modern websites</p>
+    <h1>HTML5</h1>
+    <div class="containe">
+        <div class="html bar"></div>
+    </div>
+    <h1>CSS3</h1>
+    <div class="containe">
+        <div class="css bar"></div>
+    </div>
+    <h1>bootstrap</h1>
+    <div class="containe">
+        <div class="bootstrap bar"></div>
+    </div>
+    <h1>JavaScript</h1>
+    <div class="containe">
+        <div class="js bar"></div>
+    </div>
+    <h1>WordPress</h1>
+    <div class="containe">
+        <div class="wordpress bar"></div>
+    </div>
+    </div>
+</div>
+    <div class="col-md-4 ">
+      <img class="width-margin" src="images/skill.png" alt="">
+    </div>
+</div>
+</div>
+</section>
+<!-- footer section  -->
 
+    <footer class="color">
+            <a  class="btn-to"  target="_blank" href="#">  <i class="fab fa-facebook-square"></i></a>
+            <a  class="btn-to"  target="_blank" href="#"> <i class="fab fa-twitter-square"></i></a>
+            <a  class="btn-to"  target="_blank" href="#"> <i class="fab fa-instagram-square"></i></a>
+            <a  class="btn-to"  target="_blank" href="#"> <i class="fab fa-linkedin"></i></a>
+            <div class="container h1p-p-max">
+            <h1> This is my persnoal portfolio.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at sit eos fuga sapiente voluptas saepe facilis recusandae aspernatur sint?</p>
+        </div>
+     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
