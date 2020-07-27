@@ -1,11 +1,16 @@
+body{
+    background-color: black;
+}
+
 .nav-section{
-    background-color: #00e7ff;
+    background-color: #007bff;
 }
 .b-color{
-    background-color: #5a6065;
+    background-color: #191d50;
     height: 800px;
     color:white;
     font-weight:700;
+    margin-top: 12px;
 }
 .text-color{
     font-weight: 700;
@@ -43,7 +48,7 @@
 
     }
     .square-flip{
-        width:343px;
+        width:330px;
         height:320px;
         margin-left: -20px;
     }
@@ -304,7 +309,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 .header-section{
     width: 100%;
     height: 500px;
-    background-color:#343a40!important;
+    background-color:#0c005d!important;
     position: relative;
     margin-top: 70px;
 }
@@ -317,6 +322,25 @@ transform: translateY(-50%) translateX(0px)  scale(1);
     margin-top: 30px;
     margin-left: 95px;
 }
+@keyframes slidein {
+    0%{
+        left:0;
+    }
+    100%{
+        left:10px
+    }
+}
+
+
+.contain-img{
+    
+    position: absolute;
+}
+.contain-img{
+
+    animation: slidein 1s ease-in-out 0s infinite alternate;
+}
+
 /* frist @media */
 @media(max-width:720px){
     .header-section{
@@ -356,7 +380,8 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 }
 
 .bg-color{
-    background-color:#343a40!important;
+    background-color: #191d50!important;
+    margin-top: 12px;
 }
 .width-margin{
     width: 100%;
@@ -512,6 +537,7 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 .adout-dg{
     width: 100%;
     background-color: #191d50;
+    margin-top:5px ;
 }
 .padding{
     padding: 40px 0;
@@ -593,15 +619,16 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 .color{
     height: 200px;
     text-align: center;
-    background-color: #191d50 ;
+    background-color: #191d50;
     color: wheat;
+    margin-top: 12px;
 }
 @media(max-width:720px){
     .h1p-p-max{
         font-size: 20px;
     }
     .color{
-        height: 350px;
+        height: 400px;
     }
     .frem{
         display: none;
@@ -609,113 +636,131 @@ transform: translateY(-50%) translateX(0px)  scale(1);
 }
 
 /* this is latest work */
-.href-wrep h1{
-    border-bottom:3px solid #89ff03 ;
-    display: table;
-}
-.carousel-control-prev, .carousel-control-next{
-    position: unset;
-    background-color: slategrey;
-    height: 40px;
-    display: inline-flex;
-}
 
 /* ................ */
+	/* Wildcard styling */ 
+    .color-bg{
+        background-color: #191d50;
+        height: 600px;
+        margin-top: 12px;
+    }
+    
+/* Padding for whole body */ 
+   
+.cantainer { 
+    max-width: 1200px; 
+    margin: auto; 
+} 
+    
+/* Styling h2 tag */ 
+.color-h1 { 
+    color: white;
+    border-bottom: 2px solid #89ff03; 
+    word-break: break-all; 
+    display: inline-block;
+} 
+    
+/* Anchor tag decoration */ 
+.h3a { 
+    text-decoration: none; 
+    color: #5673C8; 
+} 
+h5{
+    color: white;
+}
+.h3a:hover { 
+    color: lightblue; 
+} 
+    
+.rowclass { 
+    margin: 0px -14px; 
+    padding: 8px; 
+} 
+    
+.rowclass > .column { 
+    padding: 6px; 
+} 
+    
+.column { 
+    float: left; 
+    width: 25%; 
+    display: none; 
+} 
+    
+/* Content decoration */ 
+.content { 
+    background-color: white; 
+    padding: 10px; 
+    border: 1px solid gray; 
+} 
+    
+/* Paragraph decoration */ 
+p { 
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 4; 
+    overflow: hidden; 
+} 
+    
+.rowclass:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+} 
+    
+.content { 
+    background-color: white; 
+    padding: 10px; 
+    border: 1px solid orangered; 
+} 
+    
+.show { 
+    display: block; 
+} 
+    
+/* Style the filter buttons */ 
+.bttn { 
+    border: none; 
+    padding: 8px 14px; 
+    background-color: #ffc107; 
+} 
+    
+.bttn:hover { 
+    background-color: #007EE5; 
+    opacity: 0.8; 
+} 
+    
+.bttn.active { 
+    background-color: #007EE5; 
+    color: white; 
+} 
 
-	/* .container { 
-		max-width: 1200px; 
-		margin: auto; 
-	}  */
-		
-	/* Styling h2 tag */
-	.container-h1 { 
-		Color: green; 
-		word-break: break-all; 
-	} 
-		
-	/* Anchor tag decoration */
-	a { 
-		text-decoration: none; 
-		color: #5673C8; 
-	} 
-		
-	a:hover { 
-		color: lightblue; 
-	} 
-		
-	.row { 
-		margin: 0px -14px; 
-		padding: 8px; 
-	} 
-		
-	.row > .column { 
-		padding: 6px; 
-	} 
-		
-	.column { 
-		float: left; 
-		width: 25%; 
-		display: none; 
-	} 
-		
-	/* Content decoration */
-	.content { 
-		background-color: white; 
-		padding: 10px; 
-		border: 1px solid gray; 
-	} 
-		
-	/* Paragraph decoration */
-	p { 
-		display: -webkit-box; 
-		-webkit-box-orient: vertical; 
-		-webkit-line-clamp: 4; 
-		overflow: hidden; 
-	} 
-		
-	.row:after { 
-		content: ""; 
-		display: table; 
-		clear: both; 
-	} 
-		
-	.content { 
-		background-color: white; 
-		padding: 10px; 
-		border: 1px solid gray; 
-	} 
-		
-	.show { 
-		display: block; 
-	} 
-		
-	/* Style the filter buttons */
-	.bttn { 
-		border: none; 
-		padding: 8px 14px; 
-		background-color: gray; 
-	} 
-		
-	.bttn:hover { 
-		background-color: #007EE5; 
-		opacity: 0.8; 
-	} 
-		
-	.bttn.active { 
-		background-color: #007EE5; 
-		color: white; 
-	} 
-	
-	/* Window size 850 width set */
-	@media screen and (max-width: 850px) { 
-		.column { 
-			width: 50%; 
-		} 
-	} 
-	
-	/* Window size 400 width set */
-	@media screen and (max-width: 400px) { 
-		.column { 
-			width: 100%; 
-		} 
-	} 
+/* Window size 850 width set */ 
+@media screen and (max-width: 850px) { 
+    .column { 
+        width: 50%; 
+    } 
+} 
+
+/* Window size 400 width set */ 
+@media screen and (max-width: 400px) { 
+    .column { 
+        width: 100%; 
+    } 
+} 
+.bac-color{
+    background-color: #0c005d;
+    margin-top: 12px;
+}
+
+.width-bg{
+    padding: 50px 0;
+}
+.par-color h4{
+    color:white;
+}
+@media(max-width: 850px){
+    .color-bg{
+        height: 100%;
+    }
+}

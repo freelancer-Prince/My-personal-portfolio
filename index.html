@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
    <!-- title head logo -->
     <link rel="shortcut icon" href="images/logo/remove.png" type="image/x-icon">
-    <script src="js/castome.js"></script>
+    
     <!-- font awesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -20,7 +20,7 @@
     <header class="nav-section fixed-top">
         <div class="container">
         <nav class="navbar navbar-expand-md navbar-light ">
-            <a class="navbar-brand " href="#"><img src="images/logo/146471_3216871_426502_image.png" alt=""></a>
+            <a class="navbar-brand " href="#"><img src="images/logo/logo-1.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,7 +36,7 @@
                   <a class="nav-link text-color" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-color" href="#">WORKS</a>
+                    <a class="nav-link text-color" href="#Latest Works">Latest-Works</a>
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link text-color" href="#my-skill">MY-SKILLS</a>
@@ -50,8 +50,8 @@
       </nav>
 </header>
 
-<section class="header-section">
-    <div class="container ">
+<section  class="header-section">
+    <div  style="border-left: 5px solid black; border-right: 5px solid black; height: 100%;"  class="container ">
         <div class="row">
         <div class="col-md-6">
             <div class="contain">
@@ -61,7 +61,7 @@
             <button type="button" class="btn btn-primary mt-1 ml-2">Read My CV</button>
         </div>
     </div>
-        <div class=" col-md-6">
+        <div class=" col-md-6 stage">
             <div class="contain-img">
             <img src="images/my-hader-img.png" alt="">
         </div>
@@ -71,7 +71,7 @@
 </section>
 <!-- adout me section -->
 <section class="adout-dg">
-    <div class="container">
+    <div style="border-left: 5px solid black; border-right: 5px solid black;" class="container">
         <div class="row">
             <div class="col-md-8 padding">
                 <div class="border-content">
@@ -96,7 +96,7 @@
 <!-- flip card with html, css, js -->
 <section id="services" class="b-color">
     <h1 class="bo-co">Services</h1>
-    <div class="container top-contain">
+    <div style="border-left: 5px solid black; border-right: 5px solid black;" class="container top-contain">
     <div class="centerflipcards "> 
         <div class="square-flip mex-flip">
             <div class="square">
@@ -247,7 +247,7 @@
 <!-- skill section -->
 <div id="my-skill" ></div>
 <section   class="bg-color" >
-    <div  class="container ">
+    <div  style="border-left: 5px solid black; border-right: 5px solid black;"   class="container ">
     <div  class="row">
     <div class="col-md-8">
     <div class="skill">
@@ -282,114 +282,109 @@
 </div>
 </section>
 <!-- This is a Latest works section     -->
+<!-- Title and tag -->
+<section id="Latest Works" class="color-bg">
+<div  style="border-left: 5px solid black; border-right: 5px solid black; height: 100%;"  class="container" class="cantainer"> 
 
-	<!-- Title and tag -->
-	<div class="container"> 
-		<h1 class="container-h1">GeeksforGeeks</h1> 
-		<h3>A Computer Science Portal for Geeks</h3> 
-		<hr> 
+    <h1 class="color-h1">Latest Works</h1> 
+    
+    <!-- Content of the body-->
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eligendi!</h5> 
+    <!-- button foreach group -->
+    <div id="filtering"> 
+        <button class="bttn active"
+                onclick="geeksportal('all')"> 
+        Show all 
+        </button> 
+        <button class="bttn"
+                onclick="geeksportal('Markup')"> 
+        Markup 
+        </button> 
+        <button class="bttn"
+                onclick="geeksportal('Style')"> 
+        Style 
+        </button> 
+        <button class="bttn"
+                onclick="geeksportal('Scripting')"> 
+        Scripting 
+        </button> 
+    </div> 
 
-		<!-- Content of the body-->
-		<h2>Portfolio of Languages</h2> 
-
-		<!-- Button foreach group -->
-		<div id="filtering"> 
-			<button class="bttn active"
-					onclick="geeksportal('all')"> 
-			Show all 
-			</button> 
-			<button class="bttn"
-					onclick="geeksportal('Markup')"> 
-			Markup 
-			</button> 
-			<button class="bttn"
-					onclick="geeksportal('Style')"> 
-			Style 
-			</button> 
-			<button class="bttn"
-					onclick="geeksportal('Scripting')"> 
-			Scripting 
-			</button> 
-		</div> 
-
-		<!-- Portfolio Gallery Grid -->
-		<div class="row"> 
-			<div class="column Markup"> 
-				<div class="content"> 
-					<img src="images/my-hader-img.png"
-						alt="HTML" style="width:100%"> 
-					<h3><a href="#"> 
-						HTML Tutorials 
-						</a> 
-					</h3> 
-					<p> 
-						HTML stands for Hyper Text Markup 
-						Language. It is used to design web 
-						pages using markup language. HTML 
-						is the combination of Hypertext 
-						and Markup language. Hypertext 
-						defines the link between the web 
-						pages. 
-					</p> 
-				</div> 
-			</div> 
-			<div class="column Styleshit"> 
-				<div class="content"> 
-					<img src= "images/4.jpg"
-						alt="CSS" style="width:100%"> 
-					<h3><a href="#"> 
-						CSS Tutorials 
-						</a> 
-					</h3> 
-					<p> 
-						Cascading Style Sheets, fondly 
-						referred to as CSS, is a simply 
-						designed language intended to 
-						simplify the process of making 
-						web pages presentable. CSS allows 
-						you to apply styles to web pages. 
-					</p> 
-				</div> 
-			</div> 
-			<div class="column Scripting"> 
-				<div class="content"> 
-					<img src="images/About-me.png"alt="" style="width:100%"> 
-					<h3><a href="#"> 
-						PHP Tutorials 
-						</a> 
-					</h3> 
-					<p> 
-						The term PHP is an acronym for PHP: 
-						Hypertext Preprocessor. PHP is a 
-						server-side scripting language 
-						designed specifically for web 
-						development. PHP can be easily 
-						embedded in HTML files. 
-					</p> 
-				</div> 
-			</div> 
-			<div class="column Scripting"> 
-				<div class="content"> 
-					<img src= "images/IMG_20191228_111117.png"	alt="" style="width:100%"> 
-					<h3><a href="#"> 
-						JavaScript Tutorials 
-						</a> 
-					</h3> 
-					<p> 
-						Javascript was developed by Brendan 
-						Eich in 1995. At first, it was called 
-						LiveScript but was later name to 
-						JavaScript. JavaScript is the muscle 
-						of the structure 
-					</p> 
-				</div> 
-			</div> 
-		</div> 
-	</div> 
+    <!-- Portfolio Gallery Grid -->
+    <div  class="row rowclass"> 
+        <div class="column Markup"> 
+            <div class="content"> 
+                <img src="images/portfolio/2.jpg" alt="HTML" style="width:100%"> 
+                <h3><a class="h3a" href="#"> 
+                    HTML Tutorials 
+                    </a> 
+                </h3> 
+                <p> 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, obcaecati.
+                </p> 
+            </div> 
+        </div> 
+        <div class="column Styleshit"> 
+            <div class="content"> 
+                <img src= "images/portfolio/2.jpg"
+                    alt="CSS" style="width:100%"> 
+                <h3><a class="h3a" href="#"> 
+                    CSS Tutorials 
+                    </a> 
+                </h3> 
+                <p> 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, obcaecati.
+                </p> 
+            </div> 
+        </div> 
+        <div class="column Scripting"> 
+            <div class="content"> 
+                <img src= "images/portfolio/3.jpg"
+                    alt="" style="width:100%"> 
+                <h3><a class="h3a" href="#"> 
+                    PHP Tutorials 
+                    </a> 
+                </h3> 
+                <p> 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, obcaecati.
+                </p> 
+            </div> 
+        </div> 
+        <div class="column Scripting"> 
+            <div class="content"> 
+                <img src= "images/portfolio/4.jpg"
+                    alt="" style="width:100%"> 
+                <h3><a class="h3a" href="#"> 
+                    JavaScript Tutorials 
+                    </a> 
+                </h3> 
+                <p> 
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, obcaecati.
+                </p> 
+            </div> 
+        </div> 
+    </div>   
+</div> 
+</section>
+<section class="bac-color">
+    <div  style="border-left: 5px solid black; border-right: 5px solid black;"  class="container">
+    <div class="width-bg">
+        <div class="row">
+            <div class="col-md-10 par-color">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, incidunt! Atque ea explicabo.</h5>
+            </div>
+            <div class="col-md-2">
+            <a href="#"> <button class="bttn active">GET IN TOUCH!</button></a> 
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 <!-- footer section  -->
 
-    <footer class="color">
+    <footer  class="color">
+        <div  style="border-left: 5px solid black; border-right: 5px solid black; height: 100%;"  class="container">
             <a  class="btn-to"  target="_blank" href="https://www.facebook.com/mdsajidrahman19266">  <i class="fab fa-facebook-square"></i></a>
             <a  class="btn-to"  target="_blank" href="#"> <i class="fab fa-twitter-square"></i></a>
             <a  class="btn-to"  target="_blank" href="#"> <i class="fab fa-instagram-square"></i></a>
@@ -398,10 +393,13 @@
             <h1> This is my persnoal portfolio.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut at sit eos fuga sapiente voluptas saepe facilis recusandae aspernatur sint?</p>
         </div>
+    </div>
      </footer>
 
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/castome.js"></script>
 </body>
 </html>
